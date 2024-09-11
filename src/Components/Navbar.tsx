@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Letstalk from './Letstalk'
-
+import "@/app/globals.css";
 const Navbar = () => {
   return (
     <>

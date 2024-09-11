@@ -1,20 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
-
+import "@/app/globals.css";
 const Hero_section = () => {
   return (
     <>
       <div className="px-4 py-8 lg:px-10 lg:py-16">
         <div className="flex justify-center items-center lg:mx-10 flex-col-reverse lg:flex-row ">
           <div className="text-center lg:text-left lg:w-1/2">
-            <h1 className="text-[32px] sm:text-[45px] font-light font-[Inter] leading-tight sm:leading-[71px] mb-4">
+            <h1 className="text-[32px] sm:text-[45px] font-bold  leading-tight sm:leading-[71px] mb-4">
               Great <span className="text-[#dd4296] font-bold">Product</span> is <br className="hidden lg:block" />
               built by great <span className="text-[#dd4296]">teams</span>
             </h1>
             <p className="text-base sm:text-lg font-normal leading-7 sm:leading-9 font-[Inter] mb-6 sm:mb-8">
               We help build and manage a team of world-class developers to bring your vision to life.
             </p>
-            <button className="text-neutral-50 text-sm font-semibold leading-[14px] font-[Inter] bg-[#6674f7] px-4 py-3 rounded-md">
+            <button className="text-neutral-50 text-sm font-semibold leading-[14px] font-[Inter] bg-[#152857] px-4 py-3 rounded-md">
               Let’s get started!
             </button>
           </div>

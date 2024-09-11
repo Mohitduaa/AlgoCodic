@@ -44,7 +44,7 @@ const Great_software = () => {
             </div>
           </div>
           <div className='w-[100%] md:w-1/2'>
-            <Image src="/images/Rectangle 17.png" alt="" width={575} height={400} layout="responsive" />
+            <Image src="/images/Rectangle 17.png" alt="" width={500} height={350}  />
           </div>
         </div>
 
@@ -78,7 +78,7 @@ const Great_software = () => {
             </div>
           </div>
           <div className='w-[100%] md:w-1/2'>
-            <Image src="/images/Rectangle 18.png" alt="" width={575} height={400} layout="responsive" />
+            <Image src="/images/Rectangle 18.png" alt="" width={500} height={350} />
           </div>
         </div>
 
@@ -112,7 +112,7 @@ const Great_software = () => {
             </div>
           </div>
           <div className='w-[100%] md:w-1/2'>
-            <Image src="/images/Rectangle 19.png" alt="" width={575} height={400} layout="responsive" />
+            <Image src="/images/Rectangle 19.png" alt="" width={500} height={350}  />
           </div>
         </div>
       </div>
