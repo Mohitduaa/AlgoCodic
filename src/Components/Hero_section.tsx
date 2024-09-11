@@ -8,7 +8,7 @@ const Hero_section = () => {
         <div className="flex justify-center items-center lg:mx-10 flex-col-reverse lg:flex-row ">
           <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="text-[32px] sm:text-[45px] font-bold  leading-tight sm:leading-[71px] mb-4">
-              Great <span className="text-[#dd4296] font-bold" style={{fontSize:"40px !important",}}>Product</span> is <br className="hidden lg:block" />
+              Great <span className="text-[#dd4296] font-bold">Product</span> is <br className="hidden lg:block" />
               built by great <span className="text-[#dd4296]">teams</span>
             </h1>
             <p className="text-base sm:text-lg font-normal leading-7 sm:leading-9 font-[Inter] mb-6 sm:mb-8">
