@@ -13,7 +13,7 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className='flex gap-8'>
-                    <Link href="/Piyush" className='text-base font-medium leading-[25px] font-[Inter]'>Home</Link>
+                    <Link href="/" className='text-base font-medium leading-[25px] font-[Inter]'>Home</Link>
                     <li className='relative group'>
                     <span className='text-base font-medium leading-[25px] font-[Inter] '>Services</span>
                     <ul className='absolute hidden group-hover:block bg-white shadow-lg p-2 space-y-2'>
