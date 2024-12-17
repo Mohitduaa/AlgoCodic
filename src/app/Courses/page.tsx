@@ -36,7 +36,7 @@ const page = () => {
       heading: "App Development",
       paragraph: "App development involves creating software applications for mobile devices or desktops. It includes designing user interfaces, coding functionality, testing for bugs, and launching on platforms like iOS, Android, or web",
       btn: "Enroll Now",
-      image: "/images/app.png",
+      image: "/images/App.png",
       css: "flex"
     },
     {
@@ -69,7 +69,7 @@ const page = () => {
                 <div className='w-full md:w-[50%]'>
                   <h1 className='text-2xl md:text-4xl font-bold mb-2'>{item.heading}</h1>
                   <p className='text-base md:text-lg text-gray-500 mb-6'>{item.paragraph}</p>
-                  <Link href="/Budget_contact" className='mx-[90px] md:ml-0 bg-black text-white px-4 py-3 rounded-[10px]  hover:scale-105 ease-in-out duration-300'>{item.btn}</Link>
+                  <Link href="/Book_appoitment" className='mx-[90px] md:ml-0 bg-black text-white px-4 py-3 rounded-[10px]  hover:scale-105 ease-in-out duration-300'>{item.btn}</Link>
                 </div>
                 <div className='w-full md:w-[50%] flex justify-center'>
                   <Image src={item.image} alt="" height={300} width={500} className="max-w-full h-auto" />

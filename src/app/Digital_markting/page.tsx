@@ -106,11 +106,11 @@ const WebDevelopment = () => {
           <h1 className='text-3xl md:text-4xl font-extrabold mb-4'>Features Offered</h1>
           <p className='text-sm md:text-base'>Allow us to provide you with a professional and thorough explanation of the subject matter, leaving no stone unturned and ensuring a complete understanding.</p>
         </div>
-        <div className='flex py-10 md:py-20 flex-wrap justify-start gap-4 px-5 md:px-[68px]'>
+        <div className='flex py-10 md:py-20 flex-wrap justify-start gap-4 px-5 md:px-[68px] '>
           {
             Featured.map((item) => {
               return (
-                <div key={item.heading} className='px-4 py-10 shadow border w-full md:w-[350px] lg:w-[400px]' style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}>
+                <div key={item.heading} className='px-4 py-10 shadow border w-full md:w-[350px] lg:w-[400px] ' style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }} >
                   <Image src={item.image} alt="" height={42} width={42} className='mx-auto bg-gray-600 px-2 py-2 rounded-full mb-4' />
                   <h1 className='text-xl md:text-2xl text-center font-bold mb-2'>{item.heading}</h1>
                   <div>

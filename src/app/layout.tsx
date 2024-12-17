@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/logo.png" type="image/png" sizes="42x42" />
+      <link rel="icon" href="/logo.png" type="image/png" sizes="32x32" />
         <title>AlgoCodic Solutions</title>
 
         </head>

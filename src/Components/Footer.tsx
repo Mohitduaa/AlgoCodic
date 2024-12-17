@@ -19,7 +19,7 @@ const Footer = () => {
           <div className='flex flex-col items-center md:items-start'>
             <ul className='text-center md:text-left'>
               <li className='text-lg text-[#4a5568] font-bold font-[Inter] mb-4'>Links</li>
-              {['About Us', 'Services', 'Case Studies', 'How it works', 'Blog', 'Careers', 'Areas We Serve'].map(link => (
+              {['About Us', 'Services', 'Courses',  'Careers', 'Tools'].map(link => (
                 <li key={link} className='text-base text-[#718096] font-normal leading-[37.81px] font-[Poppins]'>{link}</li>
               ))}
             </ul>
@@ -34,9 +34,9 @@ const Footer = () => {
           <div className='flex justify-center md:justify-start items-end'>
             <div className='flex items-center gap-4'>
               <Image src="/images/facebook.svg" alt="" height={15} width={16} />
-              <Image src="/images/instagram.svg" alt="" height={15} width={16} />
+            <a href="https://www.instagram.com/mohit_duaa11/">  <Image src="/images/instagram.svg" alt="" height={15} width={16} /></a>
               <Image src="/images/twitter.svg" alt="" height={15} width={16} />
-              <Image src="/images/linkedin.svg" alt="" height={15} width={16} />
+             <a href="https://www.linkedin.com/in/mohit-dua-a75849247/"> <Image src="/images/linkedin.svg" alt="" height={15} width={16} /></a>
             </div>
           </div>
         </div>

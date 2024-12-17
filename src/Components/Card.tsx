@@ -22,9 +22,7 @@ const Card = () => {
               distributed across the project lifecycle. We are a custom software development
               company that guarantees the successful delivery of your project.
             </p>
-            <p className="text-base font-medium leading-[25px] text-[#57007b] cursor-pointer">
-              See more Information →
-            </p>
+            
           </div>
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             <Image src="/images/Rectangle 9.png" alt="" height={500} width={500} className="w-full max-w-[501px] h-auto" />

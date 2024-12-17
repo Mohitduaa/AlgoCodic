@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 const Hero_section = () => {
   return (
@@ -13,9 +14,9 @@ const Hero_section = () => {
             <p className="text-base sm:text-lg font-normal leading-7 sm:leading-9 font-[Inter] mb-6 sm:mb-8">
               We help build and manage a team of world-class developers to bring your vision to life.
             </p>
-            <button className="text-neutral-50 text-sm font-semibold leading-[14px] font-[Inter] bg-[#152857] px-4 py-3 rounded-md">
-              Let’s get started!
-            </button>
+            <Link href="/Book_appoitment" className="text-neutral-50 text-sm font-semibold leading-[14px] font-[Inter] bg-[#152857] px-4 py-3 rounded-md">
+              {`Let’s get started!`}
+            </Link>
           </div>
 
           <div className="lg:w-1/2 mb-6 lg:mb-0 flex justify-center lg:justify-end">
